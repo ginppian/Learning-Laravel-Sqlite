@@ -120,13 +120,38 @@ Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env<
 
 Vamos a la termina y dentro del directorio escribimos:
 
-```Markdown
+```
 touch database/database.sqlite
 ```
 
 <p align="justify">
 el primer <i>database</i> hace referencia al directorio con ese nombre, el segundo al nombre de la base de datos lo podemos cambiar.
 </p>
+
+* Comprobación
+
+<p align="justify">
+	Para comprobar que la conexión es exitosa nos vamos a la terminal y escribimos lo siguiente:
+</p>
+
+```
+php artisan tinker
+```
+<p align="justify"
+<b>Tinker</b> es un interpretador de php interactivo.
+Dentro podemos escribir código de PHP para probar partes de nuestra aplicación. El código de <i>Tinker</i> se va a ejecutar como si fuera código escrito dentro de nuestra aplicación.
+
+Para probar que tenemos <b>conexión</b> basta ejecutar el siguiente comando dentro de <i>Tinker</i>:
+</p>
+
+```php
+DB::connection()->getPdo()
+```
+
+<p align="justify">
+	Esta función nos retorna una instancia de <i>PDO</i> si la conexión es exitosa, nos muestra algo así:
+</p>
+
 
 ## Fuente
 
