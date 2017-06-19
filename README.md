@@ -150,7 +150,7 @@ La forma de implementar dichos <i>diagramas</i> es manejar el lenguaje de script
 <p align="justify">
 Según la documentación oficial:
 
-"Las migraciones son un tipo de control de versiones para su base de datos. Permiten a un equipo modificar el esquema de la base de datos y mantenerse al día en el estado del esquema actual. Las migraciones suelen estar emparejadas con el Constructor de esquemas para administrar fácilmente el esquema de la aplicación."
+<b>"</b>Las migraciones son un tipo de control de versiones para su base de datos. Permiten a un equipo modificar el esquema de la base de datos y mantenerse al día en el estado del esquema actual. Las migraciones suelen estar emparejadas con el Constructor de esquemas para administrar fácilmente el esquema de la aplicación.<b>"</b>
 
 Es decir, en vez de usa el lenguaje de Script del gestor de la base de datos, usaremos clases de tipo <i>Migrations</i> para <b>crear</b> las tablas. Y otras clases de tipo <i>Models</i> para <b>manejar</b> esas tablas.
 </p>
