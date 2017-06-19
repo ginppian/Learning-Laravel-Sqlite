@@ -127,6 +127,7 @@ touch database/database.sqlite
 <p align="justify">
 el primer *database* hace referencia al directorio con ese nombre, el segundo al nombre de la base de datos lo podemos cambiar.
 </p>
+
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
