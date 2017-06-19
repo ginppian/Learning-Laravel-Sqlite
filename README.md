@@ -93,7 +93,7 @@ Hay otras credenciales que hacen referencia a *APP_NAME*, *REDIS_HOST*, *MAIL_DR
 </p>
 
 <p align="justify">
-Puesto que ya especificamos que queremos usar la conexión *sqlite* podemos ver más abajo dentro del archivo *Project/config/database.php* algo como:
+Puesto que ya especificamos que queremos usar la conexión <i>sqlite</i> podemos ver más abajo dentro del archivo <i>Project/config/database.php</i> algo como:
 </p>
 
 ```
@@ -104,6 +104,11 @@ Puesto que ya especificamos que queremos usar la conexión *sqlite* podemos ver 
         ],
 ```
 
+explicación de:
+
+```
+'database' => env('DB_DATABASE', database_path('database.sqlite')),
+```
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
