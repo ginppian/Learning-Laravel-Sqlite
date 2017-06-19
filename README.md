@@ -75,9 +75,9 @@ El parámetro *DB_CONNECTION* hace referencia a la credencial DB_CONNECTION dent
 Así que dentro de Project/.env cambiamos:
 </p>
 
-DB_CONNECTION=sqlite
-~~DB_HOST=127.0.0.1~~
-~~DB_PORT=3306<br>~~
+DB_CONNECTION=sqlite<br>
+~~DB_HOST=127.0.0.1~~<br>
+~~DB_PORT=3306~~<br>
 ~~DB_DATABASE=homestead~~<br>
 ~~DB_USERNAME=homestead~~<br>
 ~~DB_PASSWORD=secret~~<br>
