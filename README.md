@@ -137,6 +137,8 @@ DB::connection()->getPdo()
 
 De la conexión <b>NO</b> ser exitosa esta función retornaría un <i>exception</i>.
 
+#### Paso 3 - Tablas, Migraciones y Modelos
+
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
