@@ -140,7 +140,7 @@ De la conexión <b>NO</b> ser exitosa esta función retornaría un <i>exception<
 #### Paso 3 - Migraciones 
 
 <p align="justify">
-Cuando creamos nuestras bases de datos solemos crear diagramas que nos facilitan la abstracción de como se va a almacenar nuestra información.
+Cuando creamos nuestras bases de datos solemos crear <i>diagramas relacionases</i> que nos facilitan la abstracción de como se va a almacenar nuestra información.
 </p>
 
 <p align="justify">
@@ -150,9 +150,9 @@ La forma de implementar dichos <i>diagramas</i> es manejar el lenguaje de script
 <p align="justify">
 Según la documentación oficial:
 
-Las migraciones son un tipo de control de versiones para su base de datos. Permiten a un equipo modificar el esquema de la base de datos y mantenerse al día en el estado del esquema actual. Las migraciones suelen estar emparejadas con el Constructor de esquemas para administrar fácilmente el esquema de la aplicación.
+"Las migraciones son un tipo de control de versiones para su base de datos. Permiten a un equipo modificar el esquema de la base de datos y mantenerse al día en el estado del esquema actual. Las migraciones suelen estar emparejadas con el Constructor de esquemas para administrar fácilmente el esquema de la aplicación."
 
-Es decir, en vez de usa el lenguaje de Script del gestor de la base de datos, usaremos clases de tipo <i>Migrations</i> para crear las tablas. Y otras clases de tipo <i>Models</i> para manejar esas tablas.
+Es decir, en vez de usa el lenguaje de Script del gestor de la base de datos, usaremos clases de tipo <i>Migrations</i> para <b>crear</b> las tablas. Y otras clases de tipo <i>Models</i> para <b>manejar</b> esas tablas.
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
