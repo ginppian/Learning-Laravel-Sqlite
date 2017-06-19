@@ -54,10 +54,54 @@ al terminar nos imprimira algo como:
 
 Para configurar la DB hay dos archivos importantes:
 
-1. Project > config > database.php
-2. Project > .env
+1. Project/config/database.php
+2. Project/.env
 
+Si abrimos el primer archivo podremos ver algo como:
 
+```
+    'default' => env('DB_CONNECTION', 'mysql'),
+```
+
+<p align="justify">
+	Esta función especifica que conexión deseas usar del array de conexiones que observamos más abajo.
+
+El valor de *default* se iniciativa con el valor que retorna la función *env*.
+
+La función *env* lee el archivo de ambiente (segundo archivo) y pasa sus parámetros.
+
+El parámetro *DB_CONNECTION* hace referencia a la variable DB_CONNECTION (credencial) dentro del archivo *.env*
+
+Dentro del segundo archivo cambiamos:
+</p>
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+por:
+
+```
+DB_CONNECTION=sqlite
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+<p align="justify">
+y borramos las demás credenciales de ese bloque de código, dejando únicamente:
+</p>
+
+```
+DB_CONNECTION=sqlite
+```
 
 ## Fuente
 
