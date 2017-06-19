@@ -124,7 +124,7 @@ Vamos a la termina y dentro del directorio escribimos:
 touch database/database.sqlite
 ```
 
-el primer *database* hace referencia al directorio con ese nombre.
+el primer *database* hace referencia al directorio con ese nombre, el segundo al nombre de la base de datos lo podemos cambiar.
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
