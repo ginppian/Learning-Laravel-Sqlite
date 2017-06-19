@@ -137,7 +137,25 @@ DB::connection()->getPdo()
 
 De la conexión <b>NO</b> ser exitosa esta función retornaría un <i>exception</i>.
 
-#### Paso 3 - Creación de Tablas, Migraciones y Modelos
+#### Paso 3 - Migraciones 
+
+<p align="justify">
+Cuando creamos nuestras bases de datos solemos crear diagramas que nos facilitan la abstracción de como se va a almacenar nuestra información.
+</p>
+
+<p align="justify">
+La forma de implementar dichos <i>diagramas</i> es manejar el lenguaje de script encargado de implementar nuestra idea de la BD y ejecutar dicho script. 
+</p>
+
+<p align="justify">
+Según la documentación oficial:
+
+Las migraciones son un tipo de control de versiones para su base de datos. Permiten a un equipo modificar el esquema de la base de datos y mantenerse al día en el estado del esquema actual. Las migraciones suelen estar emparejadas con el Constructor de esquemas para administrar fácilmente el esquema de la aplicación.
+</p>
+
+[Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)
+[Fuente 2 Oficial](https://laravel.com/docs/5.4/migrations)
+[Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)
 
 ## Fuente
 
