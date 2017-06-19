@@ -109,6 +109,14 @@ explicación de:
 ```
 'database' => env('DB_DATABASE', database_path('database.sqlite')),
 ```
+
+<p align="jsutify">
+	La variable <i>database</i> solicita al archivo de ambiente a través de la función <i>env</i> la ruta de la base de datos de la que haremos uso.
+
+Sino encuentra la DB en el primer argumento se ira al segundo argumento que es: <i>database_path('database.sqlite')),</i>
+
+Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env</i> y sólo dejamos <i>DB_CONNECTION</i> NO la va a encontrar. Es por eso que debemos crear un archivo baseDeDatos.sqlite
+</p>
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
