@@ -115,8 +115,16 @@ explicación de:
 
 Sino encuentra la DB en el primer argumento se ira al segundo argumento que es: <i>database_path('database.sqlite')),</i>
 
-Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env</i> y sólo dejamos <i>DB_CONNECTION</i> NO la va a encontrar. Es por eso que debemos crear un archivo baseDeDatos.sqlite
+Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env</i> y sólo dejamos <i>DB_CONNECTION</i> NO la va a encontrar. Es por eso que debemos crear un archivo database.sqlite
 </p>
+
+Vamos a la termina y dentro del directorio escribimos:
+
+```
+touch database/database.sqlite
+```
+
+el primer *database* hace referencia al directorio con ese nombre.
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
