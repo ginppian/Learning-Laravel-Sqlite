@@ -154,7 +154,7 @@ Las migraciones son un tipo de control de versiones para su base de datos. Permi
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
-[Fuente 2 Oficial](https://laravel.com/docs/5.4/migrations)<br>
+[Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
 [Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
 
 ## Fuente
