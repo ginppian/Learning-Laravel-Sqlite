@@ -64,15 +64,15 @@ Si abrimos el primer archivo podremos ver algo como:
 ```
 
 <p align="justify">
-	Esta función especifica que conexión deseas usar del array de conexiones que observamos más abajo.
+	En esta linea se especifica la conexión que deseas usar en el array de conexiones que se observa más abajo.
 
 El valor de *default* se iniciativa con el valor que retorna la función *env*.
 
-La función *env* lee el archivo de ambiente (segundo archivo) y pasa sus parámetros.
+La función *env* lee el archivo de ambiente Project/.env
 
-El parámetro *DB_CONNECTION* hace referencia a la variable DB_CONNECTION (credencial) dentro del archivo *.env*
+El parámetro *DB_CONNECTION* hace referencia a la credencial DB_CONNECTION dentro del archivo Project/.env
 
-Dentro del segundo archivo cambiamos:
+Así que dentro de Project/.env cambiamos:
 </p>
 
 ```
