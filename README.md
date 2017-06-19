@@ -64,15 +64,13 @@ Si abrimos el primer archivo podremos ver algo como:
 ```
 
 <p align="justify">
-	En esta linea se especifica la conexión que deseas usar en el array de conexiones que se observa más abajo.
+	Esta linea sirve para especificar la conexión que deseas usar en el array de conexiones que se observa más abajo.
 
-El valor de *default* se iniciativa con el valor que retorna la función *env*.
+El valor de la variable *default* se inicia con el valor que retorna la función *env*. La función *env* hace referencia a el archivo de ambiente Project/.env
 
-La función *env* lee el archivo de ambiente Project/.env
+Como el primer parámetro de la función *env(DB_CONNECTION, ...)* hace referencia a la credencial *DB_CONNECTION* del archivo Project/.env
 
-El parámetro *DB_CONNECTION* hace referencia a la credencial DB_CONNECTION dentro del archivo Project/.env
-
-Así que dentro de Project/.env cambiamos:
+Hacemos lo siguiente:
 </p>
 
 DB_CONNECTION=sqlite<br>
@@ -83,7 +81,7 @@ DB_CONNECTION=sqlite<br>
 ~~DB_PASSWORD=secret~~<br>
 
 <p align="justify">
-y borramos las demás credenciales (únicamente de ese bloque de código), dejando sólo la primera linea:
+borramos las demás credenciales (únicamente de ese bloque de código), dejando sólo la primera linea, es la que especifica que conexión queremos usar.
 </p>
 
 ```
@@ -93,6 +91,18 @@ DB_CONNECTION=sqlite
 <p align="justify">
 Hay otras credenciales que hacen referencia a *APP_NAME*, *REDIS_HOST*, *MAIL_DRIVER* pero por el momento no nos interesa trabajar con ellas.
 </p>
+
+<p align="justify">
+Puesto que ya especificamos que queremos usar la conexión *sqlite* podemos ver más abajo dentro del archivo *Project/config/database.php* algo como:
+</p>
+
+```
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'prefix' => '',
+        ],
+```
 
 ## Fuente
 
