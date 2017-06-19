@@ -152,7 +152,9 @@ DB::connection()->getPdo()
 	Esta función nos retorna una instancia de <i>PDO</i> si la conexión es exitosa, nos muestra algo así:
 </p>
 
-
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+</p>
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
