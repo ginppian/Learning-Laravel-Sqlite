@@ -54,8 +54,8 @@ al terminar nos imprimira algo como:
 
 Para configurar la DB hay dos archivos importantes:
 
-* 1.- Project > config > database.php
-* 2.- Project > .env
+1. Project > config > database.php
+2. Project > .env
 
 
 
