@@ -155,6 +155,9 @@ DB::connection()->getPdo()
 <p align="center">
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
 </p>
+
+De la conexión no ser exitosa esta función retornaría un <i>exception</i>.
+
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
