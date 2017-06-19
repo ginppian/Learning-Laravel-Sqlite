@@ -84,12 +84,16 @@ DB_CONNECTION=sqlite<br>
 
 
 <p align="justify">
-y borramos las demás credenciales de ese bloque de código, dejando únicamente:
+y borramos las demás credenciales, únicamente de ese bloque de código, dejando sólo la primera linea:
 </p>
 
 ```
 DB_CONNECTION=sqlite
 ```
+
+<p align="justify">
+Hay otras credenciales que hacen referencia a *APP_NAME*, *REDIS_HOST*, *MAIL_DRIVER* pero por el momento no nos interesa trabajar con ellas.
+</p>
 
 ## Fuente
 
