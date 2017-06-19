@@ -50,6 +50,14 @@ al terminar nos imprimira algo como:
 
 > Application ready! Build something amazing.
 
+#### Paso 2 - Configurando la DB
+
+Para configurar la DB hay dos archivos importantes:
+
+* 1.- Project > config > database.php
+* 2.- Project > .env
+
+
 
 ## Fuente
 
