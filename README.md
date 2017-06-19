@@ -120,7 +120,7 @@ Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env<
 
 Vamos a la termina y dentro del directorio escribimos:
 
-```bash
+```Markdown
 touch database/database.sqlite
 ```
 
