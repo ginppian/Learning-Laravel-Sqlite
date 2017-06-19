@@ -42,7 +42,7 @@ Learning Laravel - Parte 2
 Vamos a la terminal y en el directorio donde tendremos nuestro proyecto escribimos:
 </p>
 
-```
+```php
 laravel new Learning-Laravel-SQLite
 ```
 
@@ -59,7 +59,7 @@ Para configurar la DB hay dos archivos importantes:
 
 Si abrimos el primer archivo podremos ver algo como:
 
-```
+```php
     'default' => env('DB_CONNECTION', 'mysql'),
 ```
 
@@ -84,7 +84,7 @@ DB_CONNECTION=sqlite<br>
 borramos las demás credenciales (únicamente de ese bloque de código), dejando sólo la primera linea, es la que especifica que conexión queremos usar.
 </p>
 
-```
+```php
 DB_CONNECTION=sqlite
 ```
 
@@ -96,7 +96,7 @@ Hay otras credenciales que hacen referencia a *APP_NAME*, *REDIS_HOST*, *MAIL_DR
 Puesto que ya especificamos que queremos usar la conexión <i>sqlite</i> podemos ver más abajo dentro del archivo <i>Project/config/database.php</i> algo como:
 </p>
 
-```
+```php
         'sqlite' => [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
@@ -106,7 +106,7 @@ Puesto que ya especificamos que queremos usar la conexión <i>sqlite</i> podemos
 
 explicación de:
 
-```
+```php
 'database' => env('DB_DATABASE', database_path('database.sqlite')),
 ```
 
@@ -120,7 +120,7 @@ Como borramos las demás credenciales el el archivo de ambiente <i>Project/.env<
 
 Vamos a la termina y dentro del directorio escribimos:
 
-```
+```bash
 touch database/database.sqlite
 ```
 
