@@ -274,7 +274,51 @@ class Post extends Model {
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img4.png" width="1081" height="600" />
 </p>
 
+<p align="justify">
+Si nos fijamos la función <i>up</i> y la variable <i>table</i> aun que en diferentes archivos:
+</p>
 
+```
+Schema::create('posts', function (Blueprint $table) {
+```
+
+```
+protected $table = 'posts';
+```
+
+<p align="justify">
+ambos parámetros tienen el mismo nombre de tabla: <b>posts</b>
+</p>
+
+Ahora ya está listo, sólo falta agregar algunos elementos.
+
+* Tinker
+
+Abrimos <i>Tinker</i>:
+
+```
+php artisan tinker
+```
+
+creamos un <b>instancia</b> de la clase <i>Post</i> y asignamos:
+
+```
+$post = new App\Post
+$post->title = 'Title 1'
+$post->description = 'Description 1'
+$post->url = 'https://www.google.com'
+$post->save()
+```
+
+<p align="justify">
+El primer comando como ya lo dijimos crea una instancia, los siguientes asignan valores a <i>propiedades</i> de la <i>tabla</i> y el último como su nombre lo indica guarda los cambios.
+</p>
+
+Si nos aparece <b>true</b> ¡todo salió bien!
+
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+</p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
