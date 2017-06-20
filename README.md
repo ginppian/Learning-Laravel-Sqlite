@@ -253,7 +253,7 @@ Laravel permite crear <i>Modelos</i> en cualquier lugar pero es una buena práct
 <p>
 
 <p align="justify">
-Entonces vamos a ese directorio y creamos <i>Post.php</i> con el siguiente código:
+Entonces vamos a ese directorio y creamos <b>Post.php</b> con el siguiente código:
 <p>
 
 ```php
