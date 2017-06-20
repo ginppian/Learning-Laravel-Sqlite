@@ -271,7 +271,7 @@ class Post extends Model {
 ```
 
 <p align="center">
-  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img4.png" width="1081" height="721" />
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
