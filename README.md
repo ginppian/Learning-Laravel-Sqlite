@@ -275,7 +275,7 @@ class Post extends Model {
 </p>
 
 <p align="justify">
-Si nos fijamos la función <i>up</i> y la variable <i>table</i> aun que en diferentes archivos:
+Si nos fijamos la función <i>up</i> (modelo) y la variable <i>table</i> (migration) aun que en diferentes archivos:
 </p>
 
 ```
