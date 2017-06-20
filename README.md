@@ -370,6 +370,22 @@ algo así:
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img6.png" width="1028" height="243" />
 </p>
 
+* Mostrando datos
+
+<p align="justify">
+	Para <b>mostrar datos</b> basta con abrir <i>Tinker</i> y ejecutar lo siguiente:
+</p>
+
+```
+App\Post::all()
+```
+
+Post porque es la clase que maneja nuestra tabla.
+
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img6.png" width="1028" height="243" />
+</p>
+
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
 [Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
