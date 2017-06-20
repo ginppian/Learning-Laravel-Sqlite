@@ -216,6 +216,16 @@ Nuestra función <i>up</i> se vería así:
     }
 ```
 
+Para <b>Migrar</b> las nuevas columnas la base bastará con ejecutar el siguiente comando (ubicados dentro del proyecto):
+
+```
+php artisan migrate
+```
+
+En mi caso aparece algo así:
+
+
+
 
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
