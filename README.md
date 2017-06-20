@@ -177,6 +177,22 @@ Y se ve de esta manera:
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img2.png" width="866" height="728" />
 </p>
 
+<p align="justify">
+	Podemos fijarnos que en la función <i>up()</i> contiene lo siguiente:
+</p>
+
+```
+Schema::create('posts', function (Blueprint $table) {
+```
+
+el primer parámetro corresponde al *nombre de la tabla* dentro del clausure especifica los parámetros de *$table*:<br>
+
+```
+$table->increments('id');
+```
+
+nos dice que tendrá un *id autoincrementable*
+
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
 [Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
