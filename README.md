@@ -334,7 +334,7 @@ protected $fillable = ['title', 'description', 'url'];
 <b>$fillable</b> te permite especificar qué campos sí quieres que se guarden en la base de datos. Es decir, se asignan únicamente los especificados en este array.
 </p>
 
-es decir, nuestro código quedaría así:
+nuestro código se vería así:
 
 ```php
 <?php
