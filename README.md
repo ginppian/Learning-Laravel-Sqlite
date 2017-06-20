@@ -172,7 +172,7 @@ nos crea una tabla en la <i>Base de Datos</i> ya real!
 Entonces estamos creando la tabla <i>posts</i> vacía, y una <i>clase</i> que nos permitirá agregarle campos a nuestra tabla, también nos permitirá regresar a un estado previo a modificar la, etc. Y se ve de esta manera:
 
 <p align="center">
-  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img2.png" width="866" height="728" />
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
