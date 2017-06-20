@@ -320,6 +320,52 @@ El primer comando como ya lo dijimos crea una instancia, los siguientes asignan 
 
 Si nos aparece <b>true</b> ¡todo salió bien!
 
+* Otra manera
+
+<p align="justify">
+	Otra manera de almacenar datos ¡<i>más sencilla</i>! es haciendo uso de nuestro <b>Modelo</b> o nuestra <i>clase Post.php</i> asignando la siguiente linea:
+</p>
+
+<p align="justify">
+<b>$fillable</b> te permite especificar qué campos sí quieres que se guarden en la base de datos. Es decir, se asignan únicamente los especificados en este array.
+</p>
+
+```php
+protected $fillable = ['title', 'description', 'url'];
+```
+
+es decir, nuestro código quedaría así:
+
+```php
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model {
+
+  // Hace referencia a la tabla que esta Class va a usar
+  protected $table = 'posts';
+
+  protected $fillable = ['title', 'description', 'url'];
+}
+```
+
+Otra vez corremos <b>Tinker</b>
+
+```
+php artisan tinker
+```
+
+y ejecutamos:
+
+```
+	App\Post::create(['title' => 'Title 2', 'description' => 'Description 2', 'url' => 'http://www.youtube.com'])
+```
+
+algo así:
+
 
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
