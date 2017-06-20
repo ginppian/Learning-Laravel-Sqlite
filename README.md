@@ -383,7 +383,7 @@ App\Post::all()
 Post porque es la clase que maneja nuestra tabla.
 
 <p align="center">
-  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img6.png" width="1028" height="243" />
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img7.png" width="781" height="268" />
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
