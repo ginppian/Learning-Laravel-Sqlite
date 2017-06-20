@@ -185,13 +185,39 @@ Y se ve de esta manera:
 Schema::create('posts', function (Blueprint $table) {
 ```
 
-el primer parámetro corresponde al *nombre de la tabla* dentro del clausure especifica los parámetros de *$table*:<br>
+el primer parámetro corresponde al *nombre de la tabla* dentro del *closure* especifica los parámetros de *$table*:<br>
 
 ```
 $table->increments('id');
 ```
 
-nos dice que tendrá un *id autoincrementable*
+nos dice que tendrá un *id autoincrementable*.<br>
+
+<p align="justify">
+También nos otros podemos agregarle columnas a la tabla.<br>
+¿Cómo?<br>
+Bastara con especificarle a nuestro objeto <b>$table</b> el tipo de dato que manejará la columna y el nombre que tendrá dicha columna.
+</p>
+
+Nuestra función <i>up</i> se vería así:
+
+```php
+    public function up()
+    {
+        Schema::create('posts', function (Blueprint $table) {
+            $table->increments('id');
+
+            $table->string('title');
+            $table->text('description');
+            $table->string('url');
+            
+            
+            $table->timestamps();
+        });
+    }
+```
+
+
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
