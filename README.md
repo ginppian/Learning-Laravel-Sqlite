@@ -228,7 +228,51 @@ En mi caso se ve algo así (pero puede variar):
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img3.png" width="776" height="167" />
 </p>
 
+* Modelo
 
+<p align="justify">
+	Ahora tenemos que crear el <i>Modelo</i> que nos permitirá <b>editar</b> los datos de la tabla.
+</p>
+
+<p align="justify">
+Para tenemos que crear un nuevo archivo/clase de preferencia con el nombre en singular de la tabla, es decir si nuestra tabla se llamo:
+</p>
+
+```
+posts
+```
+
+nuestro archivo/clase se llamara de preferencia:
+
+```
+post
+```
+
+<p align="justify">
+Laravel permite crear <i>Modelos</i> en cualquier lugar pero es una buena práctica tenerlos en el directorio donde él los almacena: <b>Project/app</b>
+<p>
+
+<p align="justify">
+Entonces vamos a ese directorio y creamos <i>Post.php</i> con el siguiente código:
+<p>
+
+```php
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model {
+
+  // Hace referencia a la tabla que esta Class va a usar
+  protected $table = 'posts';
+}
+```
+
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+</p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
