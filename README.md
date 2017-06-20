@@ -235,7 +235,7 @@ En mi caso se ve algo así (pero puede variar):
 </p>
 
 <p align="justify">
-Para tenemos que crear un nuevo archivo/clase de preferencia con el nombre en singular de la tabla, es decir si nuestra tabla se llamo:
+Para crear el modelo creamos un nuevo archivo/clase de preferencia con el nombre en <i>singular</i> de la tabla, es decir si nuestra tabla se llamo:
 </p>
 
 ```
