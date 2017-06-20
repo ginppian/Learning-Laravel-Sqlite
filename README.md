@@ -167,7 +167,7 @@ El comando anterior nos genera un archivo para manejar la creación de la <b>est
 --create=posts
 ```
 
-nos crean una tabla en la <i>Base de Datos</i> ya real!
+nos crean una <b>tabla</b> en la <i>Base de Datos</i> ya real!
 
 Entonces estamos creando la tabla <i>posts</i> vacía, y una <i>clase</i> que nos permitirá agregarle campos a nuestra tabla, también nos permitirá regresar a un estado previo a modificar la, etc. Y se ve de esta manera:
 
