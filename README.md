@@ -326,13 +326,13 @@ Si nos aparece <b>true</b> ¡todo salió bien!
 	Otra manera de almacenar datos ¡<i>más sencilla</i>! es haciendo uso de nuestro <b>Modelo</b> o nuestra <i>clase Post.php</i> asignando la siguiente linea:
 </p>
 
-<p align="justify">
-<b>$fillable</b> te permite especificar qué campos sí quieres que se guarden en la base de datos. Es decir, se asignan únicamente los especificados en este array.
-</p>
-
 ```php
 protected $fillable = ['title', 'description', 'url'];
 ```
+
+<p align="justify">
+<b>$fillable</b> te permite especificar qué campos sí quieres que se guarden en la base de datos. Es decir, se asignan únicamente los especificados en este array.
+</p>
 
 es decir, nuestro código quedaría así:
 
