@@ -317,7 +317,7 @@ El primer comando como ya lo dijimos crea una instancia, los siguientes asignan 
 Si nos aparece <b>true</b> ¡todo salió bien!
 
 <p align="center">
-  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img5.png" width="780" height="260" />
 </p>
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
