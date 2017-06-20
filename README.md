@@ -314,11 +314,13 @@ $post->save()
 El primer comando como ya lo dijimos crea una instancia, los siguientes asignan valores a <i>propiedades</i> de la <i>tabla</i> y el último como su nombre lo indica guarda los cambios.
 </p>
 
-Si nos aparece <b>true</b> ¡todo salió bien!
-
 <p align="center">
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img5.png" width="780" height="260" />
 </p>
+
+Si nos aparece <b>true</b> ¡todo salió bien!
+
+
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
