@@ -386,7 +386,7 @@ App\Post::all()
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img7.png" width="781" height="480" />
 </p>
 
-Esta es una manera <i>práctica</i> de mostrar que nuestros <i>datos</i> fueron correctamente guardados.
+Esta es una manera <i>práctica</i> de mostrar que nuestros <i>datos</i> fueron correctamente guardados. Y comprobar que todo ha salido bien :D
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Official Laravel](https://laravel.com/docs/5.4/migrations)<br>
