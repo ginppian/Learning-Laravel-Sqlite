@@ -169,7 +169,7 @@ El comando anterior nos genera un archivo para manejar la creación de la <b>est
 
 nos crean una <b>tabla</b> en la <i>Base de Datos</i> ya real!
 
-Entonces estamos creando la tabla <i>posts</i> vacía, y una <i>clase</i> que nos permitirá agregarle campos a nuestra tabla, también nos permitirá regresar a un estado previo a modificar la, etc. Y se ve de esta manera:
+Entonces, hemos creando la tabla <b>posts</b> que por el momento se encuentra vacía, y una <i>clase</i> que nos permitirá agregarle campos a nuestra tabla, también nos permitirá regresar a un estado previo a modificar la, etc. Y se ve de esta manera:
 
 <p align="center">
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img2.png" width="866" height="728" />
