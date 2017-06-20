@@ -155,6 +155,26 @@ Según la documentación oficial:
 Es decir, en vez de usa el lenguaje de Script del gestor de la base de datos, usaremos clases de tipo <i>Migrations</i> para <b>crear</b> las tablas. Y otras clases de tipo <i>Models</i> para <b>manejar</b> esas tablas.
 </p>
 
+Nos vamos a nuestra terminal y escribimos:
+
+```
+php artisan make:migration create_post_table --create=posts
+```
+
+Este comando nos genera un archivo para manejar la creación de la <b>estructura</b> de la tabla.
+
+```
+--create=posts
+```
+
+nos crea una tabla en la <i>Base de Datos</i> ya real!
+
+Entonces estamos creando la tabla <i>posts</i> vacía, y una <i>clase</i> que nos permitirá agregarle campos a nuestra tabla, también nos permitirá regresar a un estado previo a modificar la, etc. Y se ve de esta manera:
+
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img1.png" width="486" height="368" />
+</p>
+
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
 [Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
