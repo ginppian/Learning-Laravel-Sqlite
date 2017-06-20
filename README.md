@@ -380,11 +380,13 @@ algo así:
 App\Post::all()
 ```
 
-Post porque es la clase que maneja nuestra tabla.
+<i>Post</i> porque es la clase que maneja nuestra tabla.
 
 <p align="center">
   <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img7.png" width="781" height="480" />
 </p>
+
+Esta es una manera <i>práctica</i> de mostrar que nuestros <i>datos</i> fueron correctamente guardados.
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
@@ -394,3 +396,7 @@ Post porque es la clase que maneja nuestra tabla.
 ## Fuente
 
 * [Curso](https://www.youtube.com/watch?v=XrrbV5YO2PY)
+
+## Contacto
+
+Twitter: @ginppian
