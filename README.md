@@ -185,7 +185,7 @@ Y se ve de esta manera:
 Schema::create('posts', function (Blueprint $table) {
 ```
 
-el primer parámetro corresponde al *nombre de la tabla*, el segundo es un *closure* que especifica los parámetros de *$table*:<br>
+el primer parámetro corresponde al *nombre de la tabla*, el segundo es un *closure* que especifica los parámetros de *$table*, por ejemplo:<br>
 
 ```
 $table->increments('id');
