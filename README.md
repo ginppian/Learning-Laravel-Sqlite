@@ -194,7 +194,7 @@ $table->increments('id');
 nos dice que tendrá un *id autoincrementable*.<br>
 
 <p align="justify">
-También nos otros podemos agregarle columnas a la tabla. ¿Cómo<br>
+También nos otros podemos agregarle columnas a la tabla. <i>¿Cómo?</i><br>
 Bastara con especificarle a nuestro objeto <b>$table</b> el tipo de dato que manejará la columna y el nombre que tendrá dicha columna.
 </p>
 
