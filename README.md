@@ -216,21 +216,24 @@ Nuestra función <i>up</i> se vería así:
     }
 ```
 
-Para <b>Migrar</b> las nuevas columnas la base bastará con ejecutar el siguiente comando (ubicados dentro del proyecto):
+Para <b>Migrar</b> las nuevas columnas la base bastará con ejecutar el siguiente comando, para ejecutar las nuevas migraciones creadas:
 
 ```
 php artisan migrate
 ```
 
-En mi caso aparece algo así:
+En mi caso se ve algo así (pero puede variar):
 
-
+<p align="center">
+  <img src="https://github.com/ginppian/Learning-Laravel-Sqlite/blob/master/imgs/img3.png" width="776" height="167" />
+</p>
 
 
 
 [Fuente 1 Migraciones](https://richos.gitbooks.io/laravel-5/content/capitulos/chapter6.html)<br>
 [Fuente 2 Migrations Laravel Oficial](https://laravel.com/docs/5.4/migrations)<br>
 [Fuente 3 ¿Qué es un ORM?](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
+[Fuente 4 Comandos php artisan migrate](http://www.tuprogramacion.com/glosario/que-es-un-orm/)<br>
 
 ## Fuente
 
